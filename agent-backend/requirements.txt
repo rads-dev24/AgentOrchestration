@@ -1,0 +1,16 @@
+fastapi[standard] 
+httpx 
+pydantic
+
+# LangChain + LangGraph
+langchain>=0.3.0
+langchain-core>=0.3.0
+langchain-ollama>=0.2.0
+langgraph>=0.2.0
+ 
+# HTTP client
+requests>=2.31.0
+ 
+# Optional: rich terminal output (install separately if desired)
+rich>=13.0.0
+ 
