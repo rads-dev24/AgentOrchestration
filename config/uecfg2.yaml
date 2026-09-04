@@ -1,0 +1,63 @@
+supi: 'imsi-001011988586894'
+
+mcc: '001'
+mnc: '01'
+
+protectionScheme: 0
+
+routingIndicator: '0000'
+
+key: 'de83ab21e4f934687608fd0212aa88a1'
+
+op: '0f85854bfb6250f87ed2f1542e5e22bb'
+opType: 'OPC'
+
+amf: '8000'
+
+imei: '001017994095263'
+
+tunNetmask: '255.255.255.0'
+
+gnbSearchList:
+  - 10.3.0.10   
+
+sessions:
+  - type: 'IPv4'
+    apn: 'internet'
+    slice:
+      sst: 1
+      sd: 0x102030
+
+configured-nssai:
+  - sst: 1
+    sd: 0x102030
+
+default-nssai:
+  - sst: 1
+    sd: 0x102030
+
+integrity:
+  IA1: true
+  IA2: true
+  IA3: true
+
+ciphering:
+  EA1: true
+  EA2: true
+  EA3: true
+
+integrityMaxRate:
+  uplink: 'full'
+  downlink: 'full'
+
+uacAic:
+  mps: false
+  mcs: false
+
+uacAcc:
+  normalClass: 0
+  class11: false
+  class12: false
+  class13: false
+  class14: false
+  class15: false
